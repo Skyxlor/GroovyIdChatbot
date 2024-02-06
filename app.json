@@ -1,0 +1,34 @@
+{
+  "name": "𝐆ʀᴏᴏᴠყ 𝐈ᴅ 𝐂ʜᴀƚʙᴏƚ",
+  "description": "ᴀᴅᴠᴀɴᴄᴇᴅ ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ᴄʜᴀᴛʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ᴜsᴇʀʙᴏᴛ",
+  "logo": "https://telegra.ph/file/a657b23790731f27359ca.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "env": {
+        "SESSION_NAME": {
+            "description": "ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇᴛ ɪᴛ ғʀᴏᴍ @STRING_GENERATOR_R0BOT",
+            "required": true
+        },        
+        "MONGO_URL": {
+            "description": "ᴍᴏɴɢᴏ ᴅʙ ᴜʀʟ ʜᴇʀᴇ",
+            "required": true
+        },
+        "API_ID": {
+            "description": "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ɪᴅ ʜᴇʀᴇ",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʜᴀsʜ ʜᴇʀᴇ",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
